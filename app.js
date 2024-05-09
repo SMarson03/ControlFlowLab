@@ -34,3 +34,32 @@ console.log(growthWeek3)
 //Pruned, to stop them from exceeding the capacity of the garden.
 //This condition should be met if the plant count after the given number of 
 //weeks is greater than 80% of the maximum capacity of the garden.
+
+if (pruned = growthWeek1 >= minSpace){
+    console.log("Time to prune");
+   
+    } else {
+        console.log("Do not prune")
+    }
+
+    if (pruned = growthWeek2 >= minSpace){
+        console.log("Time to prune");
+       
+        } else {
+            console.log("Do not prune")
+        }
+
+        if (pruned = growthWeek3 >= minSpace){
+            console.log("Time to prune");
+           
+            } else {
+                console.log("Do not prune")
+            }
+    
+            const monitored = .5
+          if (pruned2 = growthWeek1 >= monitored >= minSpace){
+                console.log("Time to prune");
+               
+                } else {
+                    console.log("Do not prune")
+                }
